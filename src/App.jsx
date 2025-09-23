@@ -33,7 +33,6 @@ const App = () => {
   const generateTerms = () => {
     setIsGenerating(true);
     
-    // Simulate generation process
     setTimeout(() => {
       const currentDate = new Date().toLocaleDateString();
       
@@ -235,16 +234,18 @@ DISCLAIMER: This Terms of Service document is generated using a template system 
       </header>
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Hero Section */}
+        {/* SEO-Optimized Hero Section */}
         {currentStep === 1 && (
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Generate Professional Terms of Service
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+              Free Terms of Service Generator for Nigerian Businesses
+            </h1>
+            <h2 className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+              Create legally compliant Terms of Service documents tailored for Nigerian laws. 
+              NDPR compliant, professionally written, and ready to use in minutes.
             </h2>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Create legally compliant Terms of Service documents tailored for Nigerian businesses. 
-              Save time, protect your business, and ensure compliance with local laws.
-            </p>
+            
+            {/* Key Benefits for SEO and Google AI Overview */}
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <div className="w-12 h-12 bg-brand-navy/10 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -253,7 +254,7 @@ DISCLAIMER: This Terms of Service document is generated using a template system 
                   </svg>
                 </div>
                 <h3 className="font-semibold mb-2">NDPR Compliant</h3>
-                <p className="text-sm text-gray-600">Built to comply with Nigerian Data Protection Regulation</p>
+                <p className="text-sm text-gray-600">Built to comply with Nigerian Data Protection Regulation and local business laws</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <div className="w-12 h-12 bg-brand-gold/10 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -261,8 +262,8 @@ DISCLAIMER: This Terms of Service document is generated using a template system 
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="font-semibold mb-2">Quick Generation</h3>
-                <p className="text-sm text-gray-600">Generate professional documents in minutes</p>
+                <h3 className="font-semibold mb-2">Instant Generation</h3>
+                <p className="text-sm text-gray-600">Generate professional legal documents in minutes, no legal expertise required</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -270,15 +271,35 @@ DISCLAIMER: This Terms of Service document is generated using a template system 
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                 </div>
-                <h3 className="font-semibold mb-2">Legal Protection</h3>
-                <p className="text-sm text-gray-600">Protect your business with proper legal documentation</p>
+                <h3 className="font-semibold mb-2">Free & Professional</h3>
+                <p className="text-sm text-gray-600">Completely free to use with professional-grade legal language and formatting</p>
               </div>
             </div>
+
+            {/* SEO-friendly content for Google AI Overview */}
+            <div className="bg-slate-50 rounded-lg p-6 mb-8 text-left max-w-3xl mx-auto">
+              <h3 className="text-lg font-semibold mb-4 text-center">Why Nigerian Businesses Choose TermsNG</h3>
+              <div className="space-y-4 text-sm">
+                <div>
+                  <strong>For E-commerce Businesses:</strong> Include payment terms, refund policies, and user data protection clauses required by Nigerian law.
+                </div>
+                <div>
+                  <strong>For SaaS & Tech Companies:</strong> Cover subscription terms, data processing, and intellectual property protection under Nigerian jurisdiction.
+                </div>
+                <div>
+                  <strong>For Service Providers:</strong> Define service scope, liability limitations, and dispute resolution procedures compliant with Nigerian courts.
+                </div>
+                <div>
+                  <strong>NDPR Compliance:</strong> Automatically includes Nigerian Data Protection Regulation clauses when your business collects user data.
+                </div>
+              </div>
+            </div>
+            
             <button 
               onClick={() => setCurrentStep(2)}
               className="bg-brand-navy hover:bg-brand-navy-dark text-white px-8 py-3 rounded-lg font-medium transition-colors"
             >
-              Start Creating Your Terms →
+              Generate Your Terms of Service Free →
             </button>
           </div>
         )}
@@ -582,8 +603,41 @@ DISCLAIMER: This Terms of Service document is generated using a template system 
                 Create Another Document
               </button>
             </div>
-          </div>
+            </div>
         )}
+
+        {/* FAQ Section for SEO and Google AI Overview */}
+        <section className="bg-white rounded-lg shadow-lg p-8 mt-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+            Frequently Asked Questions About Terms of Service in Nigeria
+          </h2>
+          <div className="space-y-6">
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-2">Do Nigerian businesses need Terms of Service?</h3>
+              <p className="text-gray-600">Yes, any business operating online or providing services in Nigeria should have Terms of Service to protect their interests and comply with local laws including the Companies and Allied Matters Act (CAMA) 2020.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-2">What is NDPR compliance?</h3>
+              <p className="text-gray-600">The Nigerian Data Protection Regulation (NDPR) requires businesses that collect personal data to have proper privacy policies and terms that explain how data is processed, stored, and protected.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-2">Can I use this for my e-commerce business?</h3>
+              <p className="text-gray-600">Absolutely! TermsNG generates comprehensive terms that cover e-commerce specific issues like payment processing, refunds, shipping, and customer data protection under Nigerian law.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-2">Is the generated document legally binding?</h3>
+              <p className="text-gray-600">The documents are professionally drafted templates based on Nigerian law. For specific legal advice or complex business situations, we recommend consulting with a qualified Nigerian lawyer.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-2">How long does it take to generate terms?</h3>
+              <p className="text-gray-600">Our generator creates professional Terms of Service documents in under 2 minutes. Simply fill out the business information form and click generate.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-2">Are there any costs involved?</h3>
+              <p className="text-gray-600">TermsNG is completely free to use. Generate, download, and use your Terms of Service documents at no cost to support Nigerian business growth.</p>
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}
@@ -600,10 +654,10 @@ DISCLAIMER: This Terms of Service document is generated using a template system 
               Empowering Nigerian businesses with professional legal documents
             </p>
             <p className="text-xs text-gray-500">
-              © 2024 TermsNG. This tool generates a baseline Terms of Service document for informational purposes only. It does not constitute legal advice.
-
-You should consult with a qualified legal professional to ensure your TOS is complete and compliant with all applicable laws for your specific business.
-              </p>
+              © 2025 TermsNG. This tool generates template documents for informational purposes only. 
+              It does not constitute legal advice. You should consult with a qualified legal professional 
+              to ensure your Terms of Service is complete and compliant with all applicable laws for your specific business.
+            </p>
           </div>
         </div>
       </footer>
